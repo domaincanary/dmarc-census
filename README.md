@@ -1,7 +1,11 @@
 # State of DMARC: data
 
 The published data behind [State of DMARC](https://domaincanary.com/research/state-of-dmarc),
-DomainCanary's monthly measurement of DMARC across the Tranco top million domains.
+[DomainCanary](https://domaincanary.com)'s monthly measurement of DMARC across the Tranco top
+million domains.
+
+DomainCanary itself watches your own domain's DMARC reports and mails you a weekly digest of
+every sender using it, free for your first domain: [domaincanary.com](https://domaincanary.com).
 
 ## Layout
 
