@@ -1,0 +1,412 @@
+{
+  "snapshot": "2026-08",
+  "generatedAt": "2026-08-23T21:05:32.632Z",
+  "totals": {
+    "rows": 1000766,
+    "dnsErrors": 470,
+    "scannedOk": 1000296
+  },
+  "adoption": {
+    "overall": {
+      "domains": 1000766,
+      "scannedOk": 1000296,
+      "withDmarc": 474544,
+      "validDmarc": 469415,
+      "byPolicy": {
+        "none": 234444,
+        "quarantine": 116806,
+        "reject": 118165
+      }
+    },
+    "byRankBucket": {
+      "top1k": {
+        "domains": 1000,
+        "scannedOk": 1000,
+        "withDmarc": 722,
+        "validDmarc": 721,
+        "byPolicy": {
+          "none": 121,
+          "quarantine": 167,
+          "reject": 433
+        }
+      },
+      "r1kTo10k": {
+        "domains": 9000,
+        "scannedOk": 8998,
+        "withDmarc": 5967,
+        "validDmarc": 5939,
+        "byPolicy": {
+          "none": 1567,
+          "quarantine": 1677,
+          "reject": 2695
+        }
+      },
+      "r10kTo100k": {
+        "domains": 90000,
+        "scannedOk": 89924,
+        "withDmarc": 51621,
+        "validDmarc": 51237,
+        "byPolicy": {
+          "none": 19200,
+          "quarantine": 14587,
+          "reject": 17450
+        }
+      },
+      "r100kTo1m": {
+        "domains": 900000,
+        "scannedOk": 899608,
+        "withDmarc": 415629,
+        "validDmarc": 410919,
+        "byPolicy": {
+          "none": 213533,
+          "quarantine": 100360,
+          "reject": 97026
+        }
+      }
+    }
+  },
+  "tiers": {
+    "overall": {
+      "unknown": 470,
+      "none": 525752,
+      "broken": 5129,
+      "dead": 128980,
+      "monitoring": 105464,
+      "partial": 27320,
+      "enforced": 207651
+    },
+    "byRankBucket": {
+      "top1k": {
+        "unknown": 0,
+        "none": 278,
+        "broken": 1,
+        "dead": 27,
+        "monitoring": 94,
+        "partial": 42,
+        "enforced": 558
+      },
+      "r1kTo10k": {
+        "unknown": 2,
+        "none": 3031,
+        "broken": 28,
+        "dead": 513,
+        "monitoring": 1054,
+        "partial": 434,
+        "enforced": 3938
+      },
+      "r10kTo100k": {
+        "unknown": 76,
+        "none": 38303,
+        "broken": 384,
+        "dead": 7938,
+        "monitoring": 11262,
+        "partial": 3723,
+        "enforced": 28314
+      },
+      "r100kTo1m": {
+        "unknown": 392,
+        "none": 483979,
+        "broken": 4710,
+        "dead": 120486,
+        "monitoring": 93047,
+        "partial": 23118,
+        "enforced": 174268
+      }
+    },
+    "byCohort": {
+      "us-federal-gov": {
+        "unknown": 0,
+        "none": 198,
+        "broken": 6,
+        "dead": 25,
+        "monitoring": 20,
+        "partial": 9,
+        "enforced": 1063
+      }
+    }
+  },
+  "quality": {
+    "enforcingRows": 234971,
+    "rejectRows": 118165,
+    "pctBelow100AtEnforcement": 10318,
+    "pctBelow100AtReject": 1858,
+    "spWeakerAtEnforcement": 18596,
+    "spWeakerAtReject": 7758,
+    "brokenRecords": 5129,
+    "multipleDmarcRecords": 4477
+  },
+  "monitoringTheater": {
+    "domainsWithExternalRua": 192507,
+    "domainsWithAuthorizedExternalRua": 161990,
+    "domainsWithUnauthorizedExternalRua": 34506,
+    "domainsWithUnknownExternalRua": 143,
+    "domainsWhoseEveryRuaIsDead": 29782
+  },
+  "spf": {
+    "present": 639891,
+    "permerror": 36736,
+    "permerrorByLookups": 16592,
+    "multipleRecords": 10474,
+    "terminal": {
+      "dashAll": 236588,
+      "tildeAll": 332225,
+      "questionAll": 15856,
+      "plusAll": 427,
+      "none": 18059
+    }
+  },
+  "vendors": [
+    {
+      "vendor": "cloudflare",
+      "domains": 27809
+    },
+    {
+      "vendor": "brevo",
+      "domains": 15817
+    },
+    {
+      "vendor": "valimail",
+      "domains": 14379
+    },
+    {
+      "vendor": "proofpoint",
+      "domains": 12762
+    },
+    {
+      "vendor": "dmarcian",
+      "domains": 10392
+    },
+    {
+      "vendor": "postmark",
+      "domains": 10201
+    },
+    {
+      "vendor": "mimecast",
+      "domains": 6717
+    },
+    {
+      "vendor": "godaddy",
+      "domains": 5925
+    },
+    {
+      "vendor": "redsift",
+      "domains": 5429
+    },
+    {
+      "vendor": "easydmarc",
+      "domains": 5315
+    },
+    {
+      "vendor": "mxtoolbox",
+      "domains": 4882
+    },
+    {
+      "vendor": "dmarcadvisor",
+      "domains": 3068
+    },
+    {
+      "vendor": "powerdmarc",
+      "domains": 2493
+    },
+    {
+      "vendor": "agari",
+      "domains": 2334
+    },
+    {
+      "vendor": "uriports",
+      "domains": 2163
+    },
+    {
+      "vendor": "mailgun",
+      "domains": 1940
+    },
+    {
+      "vendor": "dmarcly",
+      "domains": 1912
+    },
+    {
+      "vendor": "barracuda",
+      "domains": 1562
+    },
+    {
+      "vendor": "validity",
+      "domains": 1351
+    },
+    {
+      "vendor": "cisa-bod-18-01",
+      "domains": 1141
+    },
+    {
+      "vendor": "glockapps",
+      "domains": 922
+    },
+    {
+      "vendor": "mailhardener",
+      "domains": 719
+    },
+    {
+      "vendor": "uk-ncsc-mail-check",
+      "domains": 636
+    },
+    {
+      "vendor": "report-uri",
+      "domains": 558
+    },
+    {
+      "vendor": "cisco",
+      "domains": 460
+    },
+    {
+      "vendor": "skysnag",
+      "domains": 17
+    }
+  ],
+  "unmatchedRuaHosts": [
+    {
+      "host": "axa.com",
+      "domains": 3904
+    },
+    {
+      "host": "gmail.com",
+      "domains": 2276
+    },
+    {
+      "host": "qiye.163.com",
+      "domains": 1468
+    },
+    {
+      "host": "sdmarc.net",
+      "domains": 1228
+    },
+    {
+      "host": "dmarcinput.com",
+      "domains": 1022
+    },
+    {
+      "host": "dmarc.amazon.com",
+      "domains": 987
+    },
+    {
+      "host": "google.com",
+      "domains": 947
+    },
+    {
+      "host": "qq.com",
+      "domains": 845
+    },
+    {
+      "host": "mpub.ne.jp",
+      "domains": 422
+    },
+    {
+      "host": "vercom.pl",
+      "domains": 418
+    },
+    {
+      "host": "inbound.flowmailer.net",
+      "domains": 408
+    },
+    {
+      "host": "rua.eu.dmarcmanager.app",
+      "domains": 399
+    },
+    {
+      "host": "us.cp-dmarc.com",
+      "domains": 374
+    },
+    {
+      "host": "report.securemx.jp",
+      "domains": 365
+    },
+    {
+      "host": "smtp.mailtrap.live",
+      "domains": 360
+    },
+    {
+      "host": "smtpeter.com",
+      "domains": 353
+    },
+    {
+      "host": "rua.dmarc.gov.sa",
+      "domains": 335
+    },
+    {
+      "host": "smartemailing.cz",
+      "domains": 321
+    },
+    {
+      "host": "emailsecurity.merox.io",
+      "domains": 316
+    },
+    {
+      "host": "edrone.app",
+      "domains": 309
+    },
+    {
+      "host": "dmarc-reports.ecomailapp.com",
+      "domains": 306
+    },
+    {
+      "host": "dmarc.250ok.net",
+      "domains": 300
+    },
+    {
+      "host": "ag.dmarcian-eu.com",
+      "domains": 296
+    },
+    {
+      "host": "eu.cp-dmarc.com",
+      "domains": 294
+    },
+    {
+      "host": "rua.netcraft.com",
+      "domains": 291
+    },
+    {
+      "host": "service.aliyun.com",
+      "domains": 280
+    },
+    {
+      "host": "mailkit.com",
+      "domains": 277
+    },
+    {
+      "host": "fbl.optin.com",
+      "domains": 271
+    },
+    {
+      "host": "dmarc25.jp",
+      "domains": 270
+    },
+    {
+      "host": "forwardemail.net",
+      "domains": 251
+    }
+  ],
+  "adjacent": {
+    "mtaSts": 9520,
+    "tlsRpt": 11442,
+    "bimi": 17339
+  },
+  "cohorts": {
+    "us-federal-gov": {
+      "domains": 1321,
+      "tiers": {
+        "unknown": 0,
+        "none": 198,
+        "broken": 6,
+        "dead": 25,
+        "monitoring": 20,
+        "partial": 9,
+        "enforced": 1063
+      },
+      "byPolicy": {
+        "none": 45,
+        "quarantine": 26,
+        "reject": 1046
+      }
+    }
+  },
+  "delta": null,
+  "aggregateReportReality": null
+}

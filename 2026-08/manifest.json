@@ -1,0 +1,36 @@
+{
+  "v": 1,
+  "snapshot": "2026-08",
+  "trancoId": "JZ8PY",
+  "trancoCount": 1000000,
+  "baselineTrancoId": null,
+  "pslSha256": "780c7961bd74b9eedf87a3843abe182863a6fd6624f9ade26a849f755a0e6be6",
+  "pslFetchedAt": "2026-08-19T18:23:44.687Z",
+  "frames": [
+    {
+      "name": "tranco",
+      "source": "https://tranco-list.eu/list/JZ8PY",
+      "domains": 1000000
+    },
+    {
+      "name": "cohort:us-federal-gov",
+      "source": "research/cohorts/us-federal-gov.csv",
+      "domains": 1321
+    }
+  ],
+  "scannerVersion": "a551ef2-dirty",
+  "resolver": {
+    "primary": "unbound:5353",
+    "retry": [
+      "1.1.1.1",
+      "8.8.8.8"
+    ]
+  },
+  "startedAt": "2026-08-20T07:24:24.037Z",
+  "completedAt": "2026-08-21T08:47:10.620Z",
+  "totals": {
+    "domains": 1000766,
+    "scanned": 1000766,
+    "dmarcLookupErrors": 470
+  }
+}
