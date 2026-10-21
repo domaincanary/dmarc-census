@@ -1,6 +1,6 @@
 # DMARC Census: data
 
-The published data behind [DMARC Census](https://domaincanary.com/research/state-of-dmarc),
+The published data behind [DMARC Census](https://domaincanary.com/research/dmarc-census),
 [DomainCanary](https://domaincanary.com)'s monthly measurement of DMARC across the Tranco top
 million domains.
 
@@ -18,7 +18,7 @@ One directory per edition, named by snapshot month:
 ```
 
 `aggregates.json` is also served live at
-`https://domaincanary.com/research/state-of-dmarc/<edition>/aggregates.json`. The copy here is
+`https://domaincanary.com/research/dmarc-census/<edition>/aggregates.json`. The copy here is
 the pinned version for that edition and does not change after publication.
 
 ## What the numbers are
@@ -28,7 +28,7 @@ cohorts, then sorts each domain into a quality tier: no record, broken, dead (p=
 working report destination), monitoring, partial enforcement, or enforced. For external `rua=`
 destinations it also checks the report-receiver authorization record, which is what separates a
 domain that collects reports from one whose reports are silently dropped. The
-[methodology section](https://domaincanary.com/research/state-of-dmarc) of each edition defines
+[methodology section](https://domaincanary.com/research/dmarc-census) of each edition defines
 every field.
 
 Domains whose DMARC lookup failed after retries are counted as errors, never as "no DMARC".
@@ -39,6 +39,6 @@ Data is licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): reus
 commercially, with attribution. Suggested citation:
 
 ```
-DomainCanary. DMARC Census, 2026-08. https://domaincanary.com/research/state-of-dmarc.
+DomainCanary. DMARC Census, 2026-10. https://domaincanary.com/research/dmarc-census.
 Data licensed CC BY 4.0.
 ```
