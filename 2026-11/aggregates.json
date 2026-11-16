@@ -1,0 +1,1987 @@
+{
+  "snapshot": "2026-11",
+  "generatedAt": "2026-11-16T11:22:56.199Z",
+  "totals": {
+    "rows": 1000748,
+    "dnsErrors": 310,
+    "scannedOk": 1000438
+  },
+  "adoption": {
+    "overall": {
+      "domains": 1000748,
+      "scannedOk": 1000438,
+      "withDmarc": 485067,
+      "validDmarc": 480373,
+      "byPolicy": {
+        "none": 238355,
+        "quarantine": 122691,
+        "reject": 119327
+      }
+    },
+    "byRankBucket": {
+      "top1k": {
+        "domains": 1000,
+        "scannedOk": 1000,
+        "withDmarc": 724,
+        "validDmarc": 723,
+        "byPolicy": {
+          "none": 116,
+          "quarantine": 171,
+          "reject": 436
+        }
+      },
+      "r1kTo10k": {
+        "domains": 9000,
+        "scannedOk": 9000,
+        "withDmarc": 6019,
+        "validDmarc": 5997,
+        "byPolicy": {
+          "none": 1564,
+          "quarantine": 1749,
+          "reject": 2684
+        }
+      },
+      "r10kTo100k": {
+        "domains": 90000,
+        "scannedOk": 89983,
+        "withDmarc": 53376,
+        "validDmarc": 53034,
+        "byPolicy": {
+          "none": 19419,
+          "quarantine": 15168,
+          "reject": 18447
+        }
+      },
+      "r100kTo1m": {
+        "domains": 900000,
+        "scannedOk": 899707,
+        "withDmarc": 424350,
+        "validDmarc": 420027,
+        "byPolicy": {
+          "none": 217233,
+          "quarantine": 105588,
+          "reject": 97206
+        }
+      }
+    }
+  },
+  "byCountry": {
+    "AE": {
+      "domains": 736,
+      "scannedOk": 736,
+      "withDmarc": 500,
+      "validDmarc": 499,
+      "enforcing": 311
+    },
+    "AI": {
+      "domains": 3823,
+      "scannedOk": 3823,
+      "withDmarc": 2914,
+      "validDmarc": 2885,
+      "enforcing": 1622,
+      "dead": 583
+    },
+    "AM": {
+      "domains": 355,
+      "scannedOk": 355,
+      "withDmarc": 205,
+      "validDmarc": 205,
+      "enforcing": 132
+    },
+    "AR": {
+      "domains": 3220,
+      "scannedOk": 3220,
+      "withDmarc": 2225,
+      "validDmarc": 2208,
+      "enforcing": 837,
+      "dead": 828
+    },
+    "AT": {
+      "domains": 3093,
+      "scannedOk": 3093,
+      "withDmarc": 1951,
+      "validDmarc": 1946,
+      "enforcing": 993,
+      "dead": 482
+    },
+    "AU": {
+      "domains": 7280,
+      "scannedOk": 7276,
+      "withDmarc": 5419,
+      "validDmarc": 5400,
+      "enforcing": 3140,
+      "dead": 1092
+    },
+    "AZ": {
+      "domains": 543,
+      "scannedOk": 543,
+      "withDmarc": 236,
+      "validDmarc": 233,
+      "enforcing": 150
+    },
+    "BA": {
+      "domains": 302,
+      "scannedOk": 302,
+      "withDmarc": 204,
+      "validDmarc": 203,
+      "enforcing": 119
+    },
+    "BD": {
+      "domains": 625,
+      "scannedOk": 624,
+      "withDmarc": 388,
+      "validDmarc": 380,
+      "enforcing": 247
+    },
+    "BE": {
+      "domains": 3357,
+      "scannedOk": 3357,
+      "withDmarc": 2377,
+      "validDmarc": 2362,
+      "enforcing": 1312,
+      "dead": 500
+    },
+    "BG": {
+      "domains": 1279,
+      "scannedOk": 1279,
+      "withDmarc": 873,
+      "validDmarc": 863,
+      "enforcing": 410
+    },
+    "BR": {
+      "domains": 15969,
+      "scannedOk": 15965,
+      "withDmarc": 10524,
+      "validDmarc": 10299,
+      "enforcing": 4567,
+      "dead": 2905
+    },
+    "BY": {
+      "domains": 1250,
+      "scannedOk": 1250,
+      "withDmarc": 616,
+      "validDmarc": 614,
+      "enforcing": 332
+    },
+    "CA": {
+      "domains": 6326,
+      "scannedOk": 6324,
+      "withDmarc": 3710,
+      "validDmarc": 3685,
+      "enforcing": 2025,
+      "dead": 799
+    },
+    "CC": {
+      "domains": 6884,
+      "scannedOk": 6884,
+      "withDmarc": 612,
+      "validDmarc": 606,
+      "enforcing": 305,
+      "dead": 167
+    },
+    "CH": {
+      "domains": 3900,
+      "scannedOk": 3900,
+      "withDmarc": 2536,
+      "validDmarc": 2526,
+      "enforcing": 1445,
+      "dead": 524
+    },
+    "CL": {
+      "domains": 2469,
+      "scannedOk": 2469,
+      "withDmarc": 1643,
+      "validDmarc": 1626,
+      "enforcing": 872,
+      "dead": 364
+    },
+    "CN": {
+      "domains": 11380,
+      "scannedOk": 11365,
+      "withDmarc": 1683,
+      "validDmarc": 1648,
+      "enforcing": 907,
+      "dead": 322
+    },
+    "CO": {
+      "domains": 6896,
+      "scannedOk": 6895,
+      "withDmarc": 3800,
+      "validDmarc": 3745,
+      "enforcing": 1966,
+      "dead": 851
+    },
+    "CR": {
+      "domains": 234,
+      "scannedOk": 234,
+      "withDmarc": 153,
+      "validDmarc": 152,
+      "enforcing": 111
+    },
+    "CZ": {
+      "domains": 5453,
+      "scannedOk": 5451,
+      "withDmarc": 3450,
+      "validDmarc": 3439,
+      "enforcing": 1439,
+      "dead": 804
+    },
+    "DE": {
+      "domains": 30117,
+      "scannedOk": 30112,
+      "withDmarc": 18785,
+      "validDmarc": 18716,
+      "enforcing": 9743,
+      "dead": 4669
+    },
+    "DK": {
+      "domains": 2350,
+      "scannedOk": 2350,
+      "withDmarc": 1775,
+      "validDmarc": 1768,
+      "enforcing": 1251,
+      "dead": 231
+    },
+    "DO": {
+      "domains": 273,
+      "scannedOk": 273,
+      "withDmarc": 174,
+      "validDmarc": 173,
+      "enforcing": 99
+    },
+    "DZ": {
+      "domains": 217,
+      "scannedOk": 217,
+      "withDmarc": 153,
+      "validDmarc": 152,
+      "enforcing": 99
+    },
+    "EC": {
+      "domains": 507,
+      "scannedOk": 506,
+      "withDmarc": 347,
+      "validDmarc": 342,
+      "enforcing": 234
+    },
+    "EE": {
+      "domains": 844,
+      "scannedOk": 844,
+      "withDmarc": 628,
+      "validDmarc": 623,
+      "enforcing": 369
+    },
+    "EG": {
+      "domains": 332,
+      "scannedOk": 332,
+      "withDmarc": 187,
+      "validDmarc": 185,
+      "enforcing": 115
+    },
+    "ES": {
+      "domains": 5618,
+      "scannedOk": 5618,
+      "withDmarc": 3640,
+      "validDmarc": 3621,
+      "enforcing": 1889,
+      "dead": 1025
+    },
+    "EU": {
+      "domains": 5968,
+      "scannedOk": 5966,
+      "withDmarc": 3220,
+      "validDmarc": 3201,
+      "enforcing": 1587,
+      "dead": 898
+    },
+    "FI": {
+      "domains": 2245,
+      "scannedOk": 2245,
+      "withDmarc": 1533,
+      "validDmarc": 1529,
+      "enforcing": 700,
+      "dead": 378
+    },
+    "FM": {
+      "domains": 342,
+      "scannedOk": 342,
+      "withDmarc": 186,
+      "validDmarc": 184,
+      "enforcing": 81
+    },
+    "FR": {
+      "domains": 10825,
+      "scannedOk": 10825,
+      "withDmarc": 7019,
+      "validDmarc": 6972,
+      "enforcing": 3148,
+      "dead": 1566
+    },
+    "GB": {
+      "domains": 29530,
+      "scannedOk": 29526,
+      "withDmarc": 10958,
+      "validDmarc": 10907,
+      "enforcing": 5923,
+      "dead": 2689
+    },
+    "GE": {
+      "domains": 443,
+      "scannedOk": 443,
+      "withDmarc": 229,
+      "validDmarc": 228,
+      "enforcing": 103
+    },
+    "GG": {
+      "domains": 818,
+      "scannedOk": 818,
+      "withDmarc": 439,
+      "validDmarc": 431,
+      "enforcing": 218
+    },
+    "GR": {
+      "domains": 3504,
+      "scannedOk": 3504,
+      "withDmarc": 2348,
+      "validDmarc": 2335,
+      "enforcing": 917,
+      "dead": 935
+    },
+    "GT": {
+      "domains": 228,
+      "scannedOk": 228,
+      "withDmarc": 151,
+      "validDmarc": 142,
+      "enforcing": 90
+    },
+    "HK": {
+      "domains": 869,
+      "scannedOk": 869,
+      "withDmarc": 515,
+      "validDmarc": 509,
+      "enforcing": 306
+    },
+    "HR": {
+      "domains": 1138,
+      "scannedOk": 1138,
+      "withDmarc": 846,
+      "validDmarc": 839,
+      "enforcing": 335
+    },
+    "HU": {
+      "domains": 3037,
+      "scannedOk": 3037,
+      "withDmarc": 1924,
+      "validDmarc": 1900,
+      "enforcing": 657,
+      "dead": 780
+    },
+    "ID": {
+      "domains": 4794,
+      "scannedOk": 4794,
+      "withDmarc": 2681,
+      "validDmarc": 2614,
+      "enforcing": 1241,
+      "dead": 646
+    },
+    "IE": {
+      "domains": 1351,
+      "scannedOk": 1351,
+      "withDmarc": 1005,
+      "validDmarc": 995,
+      "enforcing": 508
+    },
+    "IL": {
+      "domains": 1518,
+      "scannedOk": 1518,
+      "withDmarc": 1059,
+      "validDmarc": 1034,
+      "enforcing": 351
+    },
+    "IM": {
+      "domains": 311,
+      "scannedOk": 311,
+      "withDmarc": 129,
+      "validDmarc": 127,
+      "enforcing": 64
+    },
+    "IN": {
+      "domains": 10959,
+      "scannedOk": 10948,
+      "withDmarc": 5687,
+      "validDmarc": 5505,
+      "enforcing": 2925,
+      "dead": 1611
+    },
+    "IO": {
+      "domains": 10395,
+      "scannedOk": 10395,
+      "withDmarc": 5628,
+      "validDmarc": 5572,
+      "enforcing": 3273,
+      "dead": 1091
+    },
+    "IR": {
+      "domains": 3402,
+      "scannedOk": 3401,
+      "withDmarc": 1410,
+      "validDmarc": 1391,
+      "enforcing": 812,
+      "dead": 395
+    },
+    "IS": {
+      "domains": 433,
+      "scannedOk": 433,
+      "withDmarc": 259,
+      "validDmarc": 255,
+      "enforcing": 140
+    },
+    "IT": {
+      "domains": 15127,
+      "scannedOk": 15126,
+      "withDmarc": 6648,
+      "validDmarc": 6603,
+      "enforcing": 2386,
+      "dead": 2512
+    },
+    "JP": {
+      "domains": 16700,
+      "scannedOk": 16697,
+      "withDmarc": 9597,
+      "validDmarc": 9579,
+      "enforcing": 2236,
+      "dead": 4067
+    },
+    "KE": {
+      "domains": 478,
+      "scannedOk": 478,
+      "withDmarc": 309,
+      "validDmarc": 308,
+      "enforcing": 162
+    },
+    "KG": {
+      "domains": 282,
+      "scannedOk": 282,
+      "withDmarc": 132,
+      "validDmarc": 129,
+      "enforcing": 89
+    },
+    "KR": {
+      "domains": 4386,
+      "scannedOk": 4385,
+      "withDmarc": 1133,
+      "validDmarc": 1129,
+      "enforcing": 222,
+      "dead": 487
+    },
+    "KZ": {
+      "domains": 1408,
+      "scannedOk": 1405,
+      "withDmarc": 595,
+      "validDmarc": 585,
+      "enforcing": 326
+    },
+    "LA": {
+      "domains": 228,
+      "scannedOk": 228,
+      "withDmarc": 63,
+      "validDmarc": 62,
+      "enforcing": 30
+    },
+    "LK": {
+      "domains": 486,
+      "scannedOk": 486,
+      "withDmarc": 226,
+      "validDmarc": 219,
+      "enforcing": 101
+    },
+    "LT": {
+      "domains": 1132,
+      "scannedOk": 1132,
+      "withDmarc": 777,
+      "validDmarc": 774,
+      "enforcing": 354
+    },
+    "LU": {
+      "domains": 249,
+      "scannedOk": 249,
+      "withDmarc": 174,
+      "validDmarc": 173,
+      "enforcing": 112
+    },
+    "LV": {
+      "domains": 897,
+      "scannedOk": 897,
+      "withDmarc": 573,
+      "validDmarc": 570,
+      "enforcing": 366
+    },
+    "MA": {
+      "domains": 502,
+      "scannedOk": 502,
+      "withDmarc": 266,
+      "validDmarc": 259,
+      "enforcing": 131
+    },
+    "MD": {
+      "domains": 408,
+      "scannedOk": 408,
+      "withDmarc": 262,
+      "validDmarc": 261,
+      "enforcing": 132
+    },
+    "ME": {
+      "domains": 2893,
+      "scannedOk": 2892,
+      "withDmarc": 1047,
+      "validDmarc": 1032,
+      "enforcing": 557,
+      "dead": 246
+    },
+    "MK": {
+      "domains": 282,
+      "scannedOk": 282,
+      "withDmarc": 174,
+      "validDmarc": 173,
+      "enforcing": 86
+    },
+    "MX": {
+      "domains": 3159,
+      "scannedOk": 3159,
+      "withDmarc": 1837,
+      "validDmarc": 1820,
+      "enforcing": 966,
+      "dead": 466
+    },
+    "MY": {
+      "domains": 1551,
+      "scannedOk": 1551,
+      "withDmarc": 892,
+      "validDmarc": 880,
+      "enforcing": 560
+    },
+    "NG": {
+      "domains": 655,
+      "scannedOk": 655,
+      "withDmarc": 363,
+      "validDmarc": 343,
+      "enforcing": 114
+    },
+    "NL": {
+      "domains": 17814,
+      "scannedOk": 17812,
+      "withDmarc": 7592,
+      "validDmarc": 7549,
+      "enforcing": 4101,
+      "dead": 1928
+    },
+    "NO": {
+      "domains": 1893,
+      "scannedOk": 1893,
+      "withDmarc": 1496,
+      "validDmarc": 1495,
+      "enforcing": 946
+    },
+    "NP": {
+      "domains": 247,
+      "scannedOk": 247,
+      "withDmarc": 110,
+      "validDmarc": 108,
+      "enforcing": 65
+    },
+    "NU": {
+      "domains": 277,
+      "scannedOk": 277,
+      "withDmarc": 153,
+      "validDmarc": 152,
+      "enforcing": 71
+    },
+    "NZ": {
+      "domains": 1530,
+      "scannedOk": 1530,
+      "withDmarc": 1084,
+      "validDmarc": 1081,
+      "enforcing": 615
+    },
+    "PE": {
+      "domains": 1177,
+      "scannedOk": 1177,
+      "withDmarc": 721,
+      "validDmarc": 715,
+      "enforcing": 400
+    },
+    "PH": {
+      "domains": 1207,
+      "scannedOk": 1206,
+      "withDmarc": 663,
+      "validDmarc": 647,
+      "enforcing": 362
+    },
+    "PK": {
+      "domains": 1594,
+      "scannedOk": 1594,
+      "withDmarc": 851,
+      "validDmarc": 834,
+      "enforcing": 315
+    },
+    "PL": {
+      "domains": 9829,
+      "scannedOk": 9829,
+      "withDmarc": 6539,
+      "validDmarc": 6492,
+      "enforcing": 3215,
+      "dead": 1878
+    },
+    "PT": {
+      "domains": 2104,
+      "scannedOk": 2104,
+      "withDmarc": 1437,
+      "validDmarc": 1420,
+      "enforcing": 771,
+      "dead": 263
+    },
+    "PW": {
+      "domains": 297,
+      "scannedOk": 296,
+      "withDmarc": 60,
+      "validDmarc": 59,
+      "enforcing": 27
+    },
+    "PY": {
+      "domains": 297,
+      "scannedOk": 297,
+      "withDmarc": 214,
+      "validDmarc": 213,
+      "enforcing": 131
+    },
+    "RO": {
+      "domains": 4350,
+      "scannedOk": 4348,
+      "withDmarc": 3145,
+      "validDmarc": 3087,
+      "enforcing": 1243,
+      "dead": 1110
+    },
+    "RS": {
+      "domains": 1042,
+      "scannedOk": 1042,
+      "withDmarc": 634,
+      "validDmarc": 629,
+      "enforcing": 234
+    },
+    "RU": {
+      "domains": 34943,
+      "scannedOk": 34922,
+      "withDmarc": 14482,
+      "validDmarc": 14349,
+      "enforcing": 7555,
+      "dead": 4304
+    },
+    "SA": {
+      "domains": 570,
+      "scannedOk": 569,
+      "withDmarc": 420,
+      "validDmarc": 420,
+      "enforcing": 328
+    },
+    "SE": {
+      "domains": 3807,
+      "scannedOk": 3806,
+      "withDmarc": 2426,
+      "validDmarc": 2414,
+      "enforcing": 1356,
+      "dead": 416
+    },
+    "SG": {
+      "domains": 832,
+      "scannedOk": 832,
+      "withDmarc": 584,
+      "validDmarc": 583,
+      "enforcing": 397
+    },
+    "SH": {
+      "domains": 293,
+      "scannedOk": 293,
+      "withDmarc": 138,
+      "validDmarc": 137,
+      "enforcing": 88
+    },
+    "SI": {
+      "domains": 823,
+      "scannedOk": 823,
+      "withDmarc": 604,
+      "validDmarc": 601,
+      "enforcing": 271
+    },
+    "SK": {
+      "domains": 2085,
+      "scannedOk": 2084,
+      "withDmarc": 1400,
+      "validDmarc": 1395,
+      "enforcing": 620,
+      "dead": 390
+    },
+    "ST": {
+      "domains": 276,
+      "scannedOk": 276,
+      "withDmarc": 61,
+      "validDmarc": 60,
+      "enforcing": 40
+    },
+    "SU": {
+      "domains": 946,
+      "scannedOk": 946,
+      "withDmarc": 341,
+      "validDmarc": 337,
+      "enforcing": 170
+    },
+    "TH": {
+      "domains": 943,
+      "scannedOk": 943,
+      "withDmarc": 548,
+      "validDmarc": 543,
+      "enforcing": 284
+    },
+    "TN": {
+      "domains": 285,
+      "scannedOk": 285,
+      "withDmarc": 122,
+      "validDmarc": 122,
+      "enforcing": 59
+    },
+    "TO": {
+      "domains": 852,
+      "scannedOk": 852,
+      "withDmarc": 241,
+      "validDmarc": 239,
+      "enforcing": 119
+    },
+    "TR": {
+      "domains": 2805,
+      "scannedOk": 2805,
+      "withDmarc": 1826,
+      "validDmarc": 1803,
+      "enforcing": 1067,
+      "dead": 353
+    },
+    "TV": {
+      "domains": 2652,
+      "scannedOk": 2652,
+      "withDmarc": 949,
+      "validDmarc": 942,
+      "enforcing": 448,
+      "dead": 277
+    },
+    "TW": {
+      "domains": 2700,
+      "scannedOk": 2696,
+      "withDmarc": 1179,
+      "validDmarc": 1167,
+      "enforcing": 538,
+      "dead": 289
+    },
+    "TZ": {
+      "domains": 232,
+      "scannedOk": 232,
+      "withDmarc": 159,
+      "validDmarc": 156,
+      "enforcing": 98
+    },
+    "UA": {
+      "domains": 5004,
+      "scannedOk": 5004,
+      "withDmarc": 2405,
+      "validDmarc": 2375,
+      "enforcing": 1010,
+      "dead": 763
+    },
+    "US": {
+      "domains": 5453,
+      "scannedOk": 5451,
+      "withDmarc": 1182,
+      "validDmarc": 1179,
+      "enforcing": 690,
+      "dead": 235
+    },
+    "UY": {
+      "domains": 479,
+      "scannedOk": 478,
+      "withDmarc": 333,
+      "validDmarc": 328,
+      "enforcing": 165
+    },
+    "UZ": {
+      "domains": 639,
+      "scannedOk": 639,
+      "withDmarc": 338,
+      "validDmarc": 332,
+      "enforcing": 185
+    },
+    "VE": {
+      "domains": 257,
+      "scannedOk": 256,
+      "withDmarc": 151,
+      "validDmarc": 147,
+      "enforcing": 99
+    },
+    "VN": {
+      "domains": 2746,
+      "scannedOk": 2746,
+      "withDmarc": 1030,
+      "validDmarc": 998,
+      "enforcing": 497,
+      "dead": 205
+    },
+    "WS": {
+      "domains": 336,
+      "scannedOk": 334,
+      "withDmarc": 86,
+      "validDmarc": 84,
+      "enforcing": 49
+    },
+    "ZA": {
+      "domains": 2644,
+      "scannedOk": 2644,
+      "withDmarc": 1781,
+      "validDmarc": 1764,
+      "enforcing": 986,
+      "dead": 375
+    }
+  },
+  "byTld": {
+    "ai": {
+      "domains": 3823,
+      "scannedOk": 3823,
+      "withDmarc": 2914,
+      "validDmarc": 2885,
+      "enforcing": 1622
+    },
+    "app": {
+      "domains": 3874,
+      "scannedOk": 3874,
+      "withDmarc": 1736,
+      "validDmarc": 1715,
+      "enforcing": 894
+    },
+    "ar": {
+      "domains": 3220,
+      "scannedOk": 3220,
+      "withDmarc": 2225,
+      "validDmarc": 2208,
+      "enforcing": 837
+    },
+    "at": {
+      "domains": 3093,
+      "scannedOk": 3093,
+      "withDmarc": 1951,
+      "validDmarc": 1946,
+      "enforcing": 993
+    },
+    "au": {
+      "domains": 7280,
+      "scannedOk": 7276,
+      "withDmarc": 5419,
+      "validDmarc": 5400,
+      "enforcing": 3140
+    },
+    "be": {
+      "domains": 3357,
+      "scannedOk": 3357,
+      "withDmarc": 2377,
+      "validDmarc": 2362,
+      "enforcing": 1312
+    },
+    "bg": {
+      "domains": 1279,
+      "scannedOk": 1279,
+      "withDmarc": 873,
+      "validDmarc": 863,
+      "enforcing": 410
+    },
+    "biz": {
+      "domains": 2080,
+      "scannedOk": 2079,
+      "withDmarc": 676,
+      "validDmarc": 672,
+      "enforcing": 379
+    },
+    "br": {
+      "domains": 15969,
+      "scannedOk": 15965,
+      "withDmarc": 10524,
+      "validDmarc": 10299,
+      "enforcing": 4567
+    },
+    "by": {
+      "domains": 1250,
+      "scannedOk": 1250,
+      "withDmarc": 616,
+      "validDmarc": 614,
+      "enforcing": 332
+    },
+    "ca": {
+      "domains": 6326,
+      "scannedOk": 6324,
+      "withDmarc": 3710,
+      "validDmarc": 3685,
+      "enforcing": 2025
+    },
+    "casino": {
+      "domains": 1444,
+      "scannedOk": 1444,
+      "withDmarc": 118,
+      "validDmarc": 118,
+      "enforcing": 103
+    },
+    "cc": {
+      "domains": 6884,
+      "scannedOk": 6884,
+      "withDmarc": 612,
+      "validDmarc": 606,
+      "enforcing": 305
+    },
+    "ch": {
+      "domains": 3900,
+      "scannedOk": 3900,
+      "withDmarc": 2536,
+      "validDmarc": 2526,
+      "enforcing": 1445
+    },
+    "cl": {
+      "domains": 2469,
+      "scannedOk": 2469,
+      "withDmarc": 1643,
+      "validDmarc": 1626,
+      "enforcing": 872
+    },
+    "click": {
+      "domains": 1162,
+      "scannedOk": 1162,
+      "withDmarc": 117,
+      "validDmarc": 117,
+      "enforcing": 55
+    },
+    "cloud": {
+      "domains": 2588,
+      "scannedOk": 2587,
+      "withDmarc": 1016,
+      "validDmarc": 1010,
+      "enforcing": 597
+    },
+    "club": {
+      "domains": 1331,
+      "scannedOk": 1331,
+      "withDmarc": 258,
+      "validDmarc": 256,
+      "enforcing": 115
+    },
+    "cn": {
+      "domains": 11380,
+      "scannedOk": 11365,
+      "withDmarc": 1683,
+      "validDmarc": 1648,
+      "enforcing": 907
+    },
+    "co": {
+      "domains": 6896,
+      "scannedOk": 6895,
+      "withDmarc": 3800,
+      "validDmarc": 3745,
+      "enforcing": 1966
+    },
+    "com": {
+      "domains": 423866,
+      "scannedOk": 423738,
+      "withDmarc": 210700,
+      "validDmarc": 208601,
+      "enforcing": 105259
+    },
+    "cz": {
+      "domains": 5453,
+      "scannedOk": 5451,
+      "withDmarc": 3450,
+      "validDmarc": 3439,
+      "enforcing": 1439
+    },
+    "de": {
+      "domains": 30117,
+      "scannedOk": 30112,
+      "withDmarc": 18785,
+      "validDmarc": 18716,
+      "enforcing": 9743
+    },
+    "dev": {
+      "domains": 1659,
+      "scannedOk": 1659,
+      "withDmarc": 694,
+      "validDmarc": 685,
+      "enforcing": 431
+    },
+    "dk": {
+      "domains": 2350,
+      "scannedOk": 2350,
+      "withDmarc": 1775,
+      "validDmarc": 1768,
+      "enforcing": 1251
+    },
+    "edu": {
+      "domains": 3076,
+      "scannedOk": 3076,
+      "withDmarc": 2866,
+      "validDmarc": 2861,
+      "enforcing": 1740
+    },
+    "es": {
+      "domains": 5618,
+      "scannedOk": 5618,
+      "withDmarc": 3640,
+      "validDmarc": 3621,
+      "enforcing": 1889
+    },
+    "eu": {
+      "domains": 5968,
+      "scannedOk": 5966,
+      "withDmarc": 3220,
+      "validDmarc": 3201,
+      "enforcing": 1587
+    },
+    "fi": {
+      "domains": 2245,
+      "scannedOk": 2245,
+      "withDmarc": 1533,
+      "validDmarc": 1529,
+      "enforcing": 700
+    },
+    "fr": {
+      "domains": 10825,
+      "scannedOk": 10825,
+      "withDmarc": 7019,
+      "validDmarc": 6972,
+      "enforcing": 3148
+    },
+    "gov": {
+      "domains": 2917,
+      "scannedOk": 2916,
+      "withDmarc": 2451,
+      "validDmarc": 2442,
+      "enforcing": 1927
+    },
+    "gr": {
+      "domains": 3504,
+      "scannedOk": 3504,
+      "withDmarc": 2348,
+      "validDmarc": 2335,
+      "enforcing": 917
+    },
+    "hr": {
+      "domains": 1138,
+      "scannedOk": 1138,
+      "withDmarc": 846,
+      "validDmarc": 839,
+      "enforcing": 335
+    },
+    "hu": {
+      "domains": 3037,
+      "scannedOk": 3037,
+      "withDmarc": 1924,
+      "validDmarc": 1900,
+      "enforcing": 657
+    },
+    "id": {
+      "domains": 4794,
+      "scannedOk": 4794,
+      "withDmarc": 2681,
+      "validDmarc": 2614,
+      "enforcing": 1241
+    },
+    "ie": {
+      "domains": 1351,
+      "scannedOk": 1351,
+      "withDmarc": 1005,
+      "validDmarc": 995,
+      "enforcing": 508
+    },
+    "il": {
+      "domains": 1518,
+      "scannedOk": 1518,
+      "withDmarc": 1059,
+      "validDmarc": 1034,
+      "enforcing": 351
+    },
+    "in": {
+      "domains": 10959,
+      "scannedOk": 10948,
+      "withDmarc": 5687,
+      "validDmarc": 5505,
+      "enforcing": 2925
+    },
+    "info": {
+      "domains": 4855,
+      "scannedOk": 4854,
+      "withDmarc": 1550,
+      "validDmarc": 1534,
+      "enforcing": 658
+    },
+    "io": {
+      "domains": 10395,
+      "scannedOk": 10395,
+      "withDmarc": 5628,
+      "validDmarc": 5572,
+      "enforcing": 3273
+    },
+    "ir": {
+      "domains": 3402,
+      "scannedOk": 3401,
+      "withDmarc": 1410,
+      "validDmarc": 1391,
+      "enforcing": 812
+    },
+    "it": {
+      "domains": 15127,
+      "scannedOk": 15126,
+      "withDmarc": 6648,
+      "validDmarc": 6603,
+      "enforcing": 2386
+    },
+    "jp": {
+      "domains": 16700,
+      "scannedOk": 16697,
+      "withDmarc": 9597,
+      "validDmarc": 9579,
+      "enforcing": 2236
+    },
+    "kr": {
+      "domains": 4386,
+      "scannedOk": 4385,
+      "withDmarc": 1133,
+      "validDmarc": 1129,
+      "enforcing": 222
+    },
+    "kz": {
+      "domains": 1408,
+      "scannedOk": 1405,
+      "withDmarc": 595,
+      "validDmarc": 585,
+      "enforcing": 326
+    },
+    "live": {
+      "domains": 1805,
+      "scannedOk": 1804,
+      "withDmarc": 322,
+      "validDmarc": 314,
+      "enforcing": 140
+    },
+    "lt": {
+      "domains": 1132,
+      "scannedOk": 1132,
+      "withDmarc": 777,
+      "validDmarc": 774,
+      "enforcing": 354
+    },
+    "me": {
+      "domains": 2893,
+      "scannedOk": 2892,
+      "withDmarc": 1047,
+      "validDmarc": 1032,
+      "enforcing": 557
+    },
+    "mx": {
+      "domains": 3159,
+      "scannedOk": 3159,
+      "withDmarc": 1837,
+      "validDmarc": 1820,
+      "enforcing": 966
+    },
+    "my": {
+      "domains": 1551,
+      "scannedOk": 1551,
+      "withDmarc": 892,
+      "validDmarc": 880,
+      "enforcing": 560
+    },
+    "net": {
+      "domains": 47579,
+      "scannedOk": 47523,
+      "withDmarc": 17554,
+      "validDmarc": 17369,
+      "enforcing": 8952
+    },
+    "nl": {
+      "domains": 17814,
+      "scannedOk": 17812,
+      "withDmarc": 7592,
+      "validDmarc": 7549,
+      "enforcing": 4101
+    },
+    "no": {
+      "domains": 1893,
+      "scannedOk": 1893,
+      "withDmarc": 1496,
+      "validDmarc": 1495,
+      "enforcing": 946
+    },
+    "nz": {
+      "domains": 1530,
+      "scannedOk": 1530,
+      "withDmarc": 1084,
+      "validDmarc": 1081,
+      "enforcing": 615
+    },
+    "online": {
+      "domains": 4213,
+      "scannedOk": 4212,
+      "withDmarc": 790,
+      "validDmarc": 782,
+      "enforcing": 339
+    },
+    "org": {
+      "domains": 40983,
+      "scannedOk": 40977,
+      "withDmarc": 23223,
+      "validDmarc": 23064,
+      "enforcing": 11533
+    },
+    "pe": {
+      "domains": 1177,
+      "scannedOk": 1177,
+      "withDmarc": 721,
+      "validDmarc": 715,
+      "enforcing": 400
+    },
+    "ph": {
+      "domains": 1207,
+      "scannedOk": 1206,
+      "withDmarc": 663,
+      "validDmarc": 647,
+      "enforcing": 362
+    },
+    "pk": {
+      "domains": 1594,
+      "scannedOk": 1594,
+      "withDmarc": 851,
+      "validDmarc": 834,
+      "enforcing": 315
+    },
+    "pl": {
+      "domains": 9829,
+      "scannedOk": 9829,
+      "withDmarc": 6539,
+      "validDmarc": 6492,
+      "enforcing": 3215
+    },
+    "pro": {
+      "domains": 2450,
+      "scannedOk": 2450,
+      "withDmarc": 669,
+      "validDmarc": 658,
+      "enforcing": 313
+    },
+    "pt": {
+      "domains": 2104,
+      "scannedOk": 2104,
+      "withDmarc": 1437,
+      "validDmarc": 1420,
+      "enforcing": 771
+    },
+    "ro": {
+      "domains": 4350,
+      "scannedOk": 4348,
+      "withDmarc": 3145,
+      "validDmarc": 3087,
+      "enforcing": 1243
+    },
+    "rs": {
+      "domains": 1042,
+      "scannedOk": 1042,
+      "withDmarc": 634,
+      "validDmarc": 629,
+      "enforcing": 234
+    },
+    "ru": {
+      "domains": 34435,
+      "scannedOk": 34414,
+      "withDmarc": 14397,
+      "validDmarc": 14264,
+      "enforcing": 7510
+    },
+    "se": {
+      "domains": 3807,
+      "scannedOk": 3806,
+      "withDmarc": 2426,
+      "validDmarc": 2414,
+      "enforcing": 1356
+    },
+    "shop": {
+      "domains": 5073,
+      "scannedOk": 5073,
+      "withDmarc": 1757,
+      "validDmarc": 1730,
+      "enforcing": 183
+    },
+    "site": {
+      "domains": 3100,
+      "scannedOk": 3100,
+      "withDmarc": 345,
+      "validDmarc": 344,
+      "enforcing": 135
+    },
+    "sk": {
+      "domains": 2085,
+      "scannedOk": 2084,
+      "withDmarc": 1400,
+      "validDmarc": 1395,
+      "enforcing": 620
+    },
+    "space": {
+      "domains": 1373,
+      "scannedOk": 1373,
+      "withDmarc": 216,
+      "validDmarc": 215,
+      "enforcing": 106
+    },
+    "store": {
+      "domains": 1241,
+      "scannedOk": 1241,
+      "withDmarc": 346,
+      "validDmarc": 342,
+      "enforcing": 91
+    },
+    "tech": {
+      "domains": 1496,
+      "scannedOk": 1496,
+      "withDmarc": 572,
+      "validDmarc": 567,
+      "enforcing": 318
+    },
+    "top": {
+      "domains": 4864,
+      "scannedOk": 4862,
+      "withDmarc": 267,
+      "validDmarc": 266,
+      "enforcing": 130
+    },
+    "tr": {
+      "domains": 2805,
+      "scannedOk": 2805,
+      "withDmarc": 1826,
+      "validDmarc": 1803,
+      "enforcing": 1067
+    },
+    "tv": {
+      "domains": 2652,
+      "scannedOk": 2652,
+      "withDmarc": 949,
+      "validDmarc": 942,
+      "enforcing": 448
+    },
+    "tw": {
+      "domains": 2700,
+      "scannedOk": 2696,
+      "withDmarc": 1179,
+      "validDmarc": 1167,
+      "enforcing": 538
+    },
+    "ua": {
+      "domains": 5004,
+      "scannedOk": 5004,
+      "withDmarc": 2405,
+      "validDmarc": 2375,
+      "enforcing": 1010
+    },
+    "uk": {
+      "domains": 29530,
+      "scannedOk": 29526,
+      "withDmarc": 10958,
+      "validDmarc": 10907,
+      "enforcing": 5923
+    },
+    "us": {
+      "domains": 5453,
+      "scannedOk": 5451,
+      "withDmarc": 1182,
+      "validDmarc": 1179,
+      "enforcing": 690
+    },
+    "vip": {
+      "domains": 1989,
+      "scannedOk": 1989,
+      "withDmarc": 328,
+      "validDmarc": 324,
+      "enforcing": 255
+    },
+    "vn": {
+      "domains": 2746,
+      "scannedOk": 2746,
+      "withDmarc": 1030,
+      "validDmarc": 998,
+      "enforcing": 497
+    },
+    "xyz": {
+      "domains": 7301,
+      "scannedOk": 7301,
+      "withDmarc": 723,
+      "validDmarc": 703,
+      "enforcing": 379
+    },
+    "za": {
+      "domains": 2644,
+      "scannedOk": 2644,
+      "withDmarc": 1781,
+      "validDmarc": 1764,
+      "enforcing": 986
+    }
+  },
+  "tiers": {
+    "overall": {
+      "unknown": 310,
+      "none": 515371,
+      "broken": 4694,
+      "dead": 129077,
+      "monitoring": 109278,
+      "partial": 27740,
+      "enforced": 214278
+    },
+    "byRankBucket": {
+      "top1k": {
+        "unknown": 0,
+        "none": 276,
+        "broken": 1,
+        "dead": 23,
+        "monitoring": 93,
+        "partial": 44,
+        "enforced": 563
+      },
+      "r1kTo10k": {
+        "unknown": 0,
+        "none": 2981,
+        "broken": 22,
+        "dead": 497,
+        "monitoring": 1067,
+        "partial": 426,
+        "enforced": 4007
+      },
+      "r10kTo100k": {
+        "unknown": 17,
+        "none": 36607,
+        "broken": 342,
+        "dead": 8013,
+        "monitoring": 11406,
+        "partial": 3729,
+        "enforced": 29886
+      },
+      "r100kTo1m": {
+        "unknown": 293,
+        "none": 475357,
+        "broken": 4323,
+        "dead": 120527,
+        "monitoring": 96706,
+        "partial": 23539,
+        "enforced": 179255
+      }
+    },
+    "byCohort": {
+      "us-federal-gov": {
+        "unknown": 1,
+        "none": 182,
+        "broken": 6,
+        "dead": 24,
+        "monitoring": 19,
+        "partial": 8,
+        "enforced": 1081
+      }
+    }
+  },
+  "quality": {
+    "enforcingRows": 242018,
+    "rejectRows": 119327,
+    "pctBelow100AtEnforcement": 10487,
+    "pctBelow100AtReject": 1831,
+    "spWeakerAtEnforcement": 18932,
+    "spWeakerAtReject": 7835,
+    "brokenRecords": 4694,
+    "multipleDmarcRecords": 4034
+  },
+  "monitoringTheater": {
+    "domainsWithExternalRua": 197142,
+    "domainsWithAuthorizedExternalRua": 166033,
+    "domainsWithUnauthorizedExternalRua": 35261,
+    "domainsWithUnknownExternalRua": 137,
+    "domainsWhoseEveryRuaIsDead": 30359
+  },
+  "spf": {
+    "present": 637257,
+    "permerror": 36551,
+    "permerrorByLookups": 17640,
+    "multipleRecords": 9385,
+    "terminal": {
+      "dashAll": 233853,
+      "tildeAll": 333180,
+      "questionAll": 15834,
+      "plusAll": 377,
+      "none": 17462
+    }
+  },
+  "mail": {
+    "mxPresent": 673305,
+    "nullMx": 3071,
+    "noMx": 324306,
+    "mxError": 66,
+    "mxUnscanned": 0,
+    "spfDenyAll": 17802,
+    "sendsMail": 669403,
+    "noMailByDesign": 2754,
+    "tiersAmongSenders": {
+      "unknown": 7,
+      "none": 216379,
+      "broken": 4467,
+      "dead": 124150,
+      "monitoring": 106143,
+      "partial": 27176,
+      "enforced": 191081
+    },
+    "tiersAmongNoMail": {
+      "unknown": 0,
+      "none": 1047,
+      "broken": 10,
+      "dead": 21,
+      "monitoring": 35,
+      "partial": 19,
+      "enforced": 1622
+    }
+  },
+  "vendors": [
+    {
+      "vendor": "cloudflare",
+      "domains": 30785
+    },
+    {
+      "vendor": "brevo",
+      "domains": 17019
+    },
+    {
+      "vendor": "valimail",
+      "domains": 15048
+    },
+    {
+      "vendor": "proofpoint",
+      "domains": 12887
+    },
+    {
+      "vendor": "postmark",
+      "domains": 10711
+    },
+    {
+      "vendor": "dmarcian",
+      "domains": 9094
+    },
+    {
+      "vendor": "mimecast",
+      "domains": 7025
+    },
+    {
+      "vendor": "godaddy",
+      "domains": 6983
+    },
+    {
+      "vendor": "redsift",
+      "domains": 5757
+    },
+    {
+      "vendor": "easydmarc",
+      "domains": 5418
+    },
+    {
+      "vendor": "mxtoolbox",
+      "domains": 4822
+    },
+    {
+      "vendor": "dmarcadvisor",
+      "domains": 3441
+    },
+    {
+      "vendor": "powerdmarc",
+      "domains": 2597
+    },
+    {
+      "vendor": "agari",
+      "domains": 2419
+    },
+    {
+      "vendor": "uriports",
+      "domains": 2264
+    },
+    {
+      "vendor": "mailgun",
+      "domains": 2163
+    },
+    {
+      "vendor": "dmarcly",
+      "domains": 1961
+    },
+    {
+      "vendor": "validity",
+      "domains": 1689
+    },
+    {
+      "vendor": "barracuda",
+      "domains": 1656
+    },
+    {
+      "vendor": "cisa-bod-18-01",
+      "domains": 1141
+    },
+    {
+      "vendor": "glockapps",
+      "domains": 966
+    },
+    {
+      "vendor": "uk-ncsc-mail-check",
+      "domains": 841
+    },
+    {
+      "vendor": "mailhardener",
+      "domains": 759
+    },
+    {
+      "vendor": "report-uri",
+      "domains": 561
+    },
+    {
+      "vendor": "mailtrap",
+      "domains": 527
+    },
+    {
+      "vendor": "cisco",
+      "domains": 455
+    },
+    {
+      "vendor": "vercom",
+      "domains": 448
+    },
+    {
+      "vendor": "flowmailer",
+      "domains": 445
+    },
+    {
+      "vendor": "centera",
+      "domains": 379
+    },
+    {
+      "vendor": "smtpeter",
+      "domains": 364
+    },
+    {
+      "vendor": "merox",
+      "domains": 358
+    },
+    {
+      "vendor": "edrone",
+      "domains": 331
+    },
+    {
+      "vendor": "forwardemail",
+      "domains": 317
+    },
+    {
+      "vendor": "smartemailing",
+      "domains": 305
+    },
+    {
+      "vendor": "mailkit",
+      "domains": 299
+    },
+    {
+      "vendor": "ecomail",
+      "domains": 297
+    },
+    {
+      "vendor": "netcraft",
+      "domains": 292
+    },
+    {
+      "vendor": "unisender",
+      "domains": 292
+    },
+    {
+      "vendor": "dmarc25",
+      "domains": 278
+    },
+    {
+      "vendor": "kevlarr",
+      "domains": 243
+    },
+    {
+      "vendor": "trendmicro",
+      "domains": 243
+    },
+    {
+      "vendor": "inboxmonster",
+      "domains": 205
+    },
+    {
+      "vendor": "dmarceye",
+      "domains": 187
+    },
+    {
+      "vendor": "progist",
+      "domains": 146
+    },
+    {
+      "vendor": "sendforensics",
+      "domains": 144
+    },
+    {
+      "vendor": "libraesva",
+      "domains": 142
+    },
+    {
+      "vendor": "dmarcwise",
+      "domains": 133
+    },
+    {
+      "vendor": "postmastery",
+      "domains": 130
+    },
+    {
+      "vendor": "ctm360",
+      "domains": 120
+    },
+    {
+      "vendor": "zerobounce",
+      "domains": 117
+    },
+    {
+      "vendor": "ironscales",
+      "domains": 103
+    },
+    {
+      "vendor": "suped",
+      "domains": 57
+    },
+    {
+      "vendor": "skysnag",
+      "domains": 15
+    }
+  ],
+  "unmatchedRuaHosts": [
+    {
+      "host": "gmail.com",
+      "domains": 2399
+    },
+    {
+      "host": "qiye.163.com",
+      "domains": 1484
+    },
+    {
+      "host": "sdmarc.net",
+      "domains": 1229
+    },
+    {
+      "host": "dmarcinput.com",
+      "domains": 1040
+    },
+    {
+      "host": "dmarc.amazon.com",
+      "domains": 1011
+    },
+    {
+      "host": "google.com",
+      "domains": 937
+    },
+    {
+      "host": "qq.com",
+      "domains": 863
+    },
+    {
+      "host": "mpub.ne.jp",
+      "domains": 406
+    },
+    {
+      "host": "us.cp-dmarc.com",
+      "domains": 403
+    },
+    {
+      "host": "report.securemx.jp",
+      "domains": 361
+    },
+    {
+      "host": "rua.dmarc.gov.sa",
+      "domains": 352
+    },
+    {
+      "host": "service.aliyun.com",
+      "domains": 299
+    },
+    {
+      "host": "ag.dmarcian-eu.com",
+      "domains": 296
+    },
+    {
+      "host": "eu.cp-dmarc.com",
+      "domains": 284
+    },
+    {
+      "host": "rua.dmarc.emailanalyst.com",
+      "domains": 259
+    },
+    {
+      "host": "dmarc.microsoft",
+      "domains": 256
+    },
+    {
+      "host": "reports.hornetdmarc.com",
+      "domains": 256
+    },
+    {
+      "host": "fbl.optin.com",
+      "domains": 242
+    },
+    {
+      "host": "dhosting.pl",
+      "domains": 230
+    },
+    {
+      "host": "ibesecurity.com",
+      "domains": 224
+    },
+    {
+      "host": "graymedia.com",
+      "domains": 144
+    },
+    {
+      "host": "linemedia.com",
+      "domains": 138
+    },
+    {
+      "host": "reports-sg.inkydmarc.com",
+      "domains": 138
+    },
+    {
+      "host": "mail.mil",
+      "domains": 134
+    },
+    {
+      "host": "lovable.dev",
+      "domains": 133
+    },
+    {
+      "host": "mailbiz.com.br",
+      "domains": 133
+    },
+    {
+      "host": "lh.pl",
+      "domains": 130
+    },
+    {
+      "host": "mygovuc.gov.my",
+      "domains": 124
+    },
+    {
+      "host": "ccn-cert.cni.es",
+      "domains": 121
+    },
+    {
+      "host": "dmarcreports.facebook.com",
+      "domains": 105
+    }
+  ],
+  "unauthorizedRuaHosts": [
+    {
+      "host": "gmail.com",
+      "domains": 2399,
+      "everyRuaDead": 2109
+    },
+    {
+      "host": "qq.com",
+      "domains": 863,
+      "everyRuaDead": 847
+    },
+    {
+      "host": "smtp.mailtrap.live",
+      "domains": 353,
+      "everyRuaDead": 310
+    },
+    {
+      "host": "reporting.unisender.com",
+      "domains": 291,
+      "everyRuaDead": 284
+    },
+    {
+      "host": "fbl.optin.com",
+      "domains": 242,
+      "everyRuaDead": 205
+    },
+    {
+      "host": "smtp-staging.mailtrap.net",
+      "domains": 172,
+      "everyRuaDead": 154
+    },
+    {
+      "host": "lovable.dev",
+      "domains": 133,
+      "everyRuaDead": 98
+    },
+    {
+      "host": "yourdomain.com",
+      "domains": 101,
+      "everyRuaDead": 98
+    },
+    {
+      "host": "example.com",
+      "domains": 90,
+      "everyRuaDead": 80
+    }
+  ],
+  "adjacent": {
+    "mtaSts": 10478,
+    "tlsRpt": 12622,
+    "bimi": 18489
+  },
+  "cohorts": {
+    "us-federal-gov": {
+      "domains": 1321,
+      "tiers": {
+        "unknown": 1,
+        "none": 182,
+        "broken": 6,
+        "dead": 24,
+        "monitoring": 19,
+        "partial": 8,
+        "enforced": 1081
+      },
+      "byPolicy": {
+        "none": 43,
+        "quarantine": 30,
+        "reject": 1059
+      }
+    }
+  },
+  "delta": {
+    "previousSnapshot": "2026-10",
+    "comparable": 853046,
+    "excludedUnknown": 422,
+    "policyTransitions": {
+      "absent>absent": 423578,
+      "none>none": 204334,
+      "quarantine>quarantine": 107588,
+      "reject>reject": 106262,
+      "absent>none": 3926,
+      "none>quarantine": 1947,
+      "absent>reject": 1097,
+      "absent>quarantine": 868,
+      "none>absent": 801,
+      "none>reject": 783,
+      "quarantine>reject": 676,
+      "quarantine>absent": 367,
+      "reject>absent": 299,
+      "quarantine>none": 260,
+      "reject>none": 154,
+      "reject>quarantine": 106
+    },
+    "regressed": 1987,
+    "advanced": 9297,
+    "unchanged": 841762,
+    "newlyEnforced": 4695,
+    "leftNonePurgatory": 2730
+  },
+  "aggregateReportReality": null
+}
