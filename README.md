@@ -39,6 +39,6 @@ Data is licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): reus
 commercially, with attribution. Suggested citation:
 
 ```
-DomainCanary. DMARC Census, 2026-10. https://domaincanary.com/research/dmarc-census.
+DomainCanary. DMARC Census, 2026-11. https://domaincanary.com/research/dmarc-census.
 Data licensed CC BY 4.0.
 ```
